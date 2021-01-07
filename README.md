@@ -35,7 +35,7 @@
 
     /Data Structure
       - 52 cards
-      - Deal 2 cards to dealer then the player
+      -
       -
     Algorithm
     Code
