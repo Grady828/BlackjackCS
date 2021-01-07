@@ -34,10 +34,26 @@
      - If the player is dealt 21 and the dealer gets 19 what happens? The player wins.
 
     /Data Structure
-      - 52 cards
+      -
+
+
+    /Algorithm
+      - Use a deck of 52 cards. Face cards are worth 10 and Aces are worth 11 - never 1. Others cards are worth their value.
+      - Shuffle the cards
+      - Object of the game is to get 21 or as close to 21 without going over 21 or you bust and lose.
+      - The dealer deals 2 cards to themselves. Keeps hidden.
+      - Dealer deals 2 cards to player, visible to player.
+      - Player 2 choices, to hit or stand until they bust (as many times as they like).
+      - When the player stands, the dealer reveals his cards and hits until they have 17 or more or busts.
+      - If the dealer or player goes over 21 they lose.
+      - Tie goes to the dealer.
+      - The app should display the winner
+      - Option to play again, if yes, repeat the process from the beginning.
       -
       -
-    Algorithm
+      -
+      -
+
     Code
 
 ---
