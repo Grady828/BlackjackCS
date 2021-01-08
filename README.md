@@ -34,21 +34,28 @@
      - If the player is dealt 21 and the dealer gets 19 what happens? The player wins.
 
     /Data Structure
-      -
+      - Card Class : with 2 properties FACE and SUITE and one Property, VALUE that will be assigned what the card is worth.
+      - Deck Class :For the deck of cards I will have 2 Methods 1. To draw a card and 2. To Shuffle/Reset
+      - Player Class:  to hold the hand (list of cards) Make a method in the player class to calculate the hands value.
+      - Game Class:  That handles the rules and handles the player/dealer input. Methods for bust, win etc..?
+      - Handle the Play Again? In a Loop as part of main method
+
 
 
     /Algorithm
-      - Use a deck of 52 cards. Face cards are worth 10 and Aces are worth 11 - never 1. Others cards are worth their value.
+      -
+      - Create a deck of 52 cards. Face cards are worth 10 and Aces are worth 11 - never 1. Others cards are worth their value.
       - Shuffle the cards
       - Object of the game is to get 21 or as close to 21 without going over 21 or you bust and lose.
       - The dealer deals 2 cards to themselves. Keeps hidden.
       - Dealer deals 2 cards to player, visible to player.
-      - Player 2 choices, to hit or stand until they bust (as many times as they like).
+      - Player chooses to hit or stand until they bust (as many times as they like).
       - When the player stands, the dealer reveals his cards and hits until they have 17 or more or busts.
       - If the dealer or player goes over 21 they lose.
       - Tie goes to the dealer.
       - The app should display the winner
       - Option to play again, if yes, repeat the process from the beginning.
+      - Reset the game. New full deck and empty hands for dealer and player.
       -
       -
       -
